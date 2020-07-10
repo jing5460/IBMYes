@@ -1,5 +1,4 @@
 name: IBM Cloud Auto Restart
-
 on:
   push:
     branches: [ master ]
@@ -14,7 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
 
     - name: Init
       run: |
